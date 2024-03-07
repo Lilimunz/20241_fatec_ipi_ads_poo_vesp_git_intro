@@ -10,4 +10,7 @@ def main():
 
     multiplicacao = calculadora.multiplicacao(a,b)
     print(f'{a} * {b} = {multiplicacao}')
+
+    divisao = calculadora.dividir(a,b)
+    print(f'{a} / {b} = {divisao}')
 main()
